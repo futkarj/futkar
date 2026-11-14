@@ -1,12 +1,12 @@
 # Cloudflare Worker in front of futkar.com (from adobe/aem-cloudflare-prod-worker, same as namerohit.com).
 # www.futkar.com 301s to futkar.com (in src/index.mjs).
-# ZONE_ID is filled in once futkar.com is added to Cloudflare (see GO-LIVE.md).
+# f3c824a30fadac2537b68f37afbeaad0 is filled in once futkar.com is added to Cloudflare (see GO-LIVE.md).
 name = "futkar-site"
 main = "src/index.mjs"
 workers_dev = false
 routes = [
-  { pattern = "futkar.com/*", zone_id = "ZONE_ID" },
-  { pattern = "www.futkar.com/*", zone_id = "ZONE_ID" },
+  { pattern = "futkar.com/*", zone_id = "f3c824a30fadac2537b68f37afbeaad0" },
+  { pattern = "www.futkar.com/*", zone_id = "f3c824a30fadac2537b68f37afbeaad0" },
 ]
 account_id = "947f0a70b6a5524508e5f07f268a14ec"
 

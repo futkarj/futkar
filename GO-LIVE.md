@@ -1,5 +1,8 @@
 # futkar.com go-live
 
+**Status 2026-11-14:** steps 1–4 done. futkar.com is on Cloudflare (zainab/leonard), Worker `futkar-site` deployed,
+mail records verified on Cloudflare. Left: SSL Full (strict) + Always Use HTTPS, then remove helix@adobe.com as org admin.
+
 Same setup as namerohit.com: Google Docs → aem.live → Cloudflare Worker → futkar.com.
 
 ## 1. Code Sync (Rohit, 1 min)
