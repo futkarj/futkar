@@ -374,3 +374,19 @@ main .section:first-of-type p {
 main h2 {
   font-size: var(--heading-font-size-l);
 }
+
+/* futkar: the hero's call-to-action link reads as a button */
+main .section:first-of-type p > a:only-child {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  background: var(--link-color);
+  color: var(--background-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+main .section:first-of-type p > a:only-child:hover {
+  background: var(--link-hover-color);
+}
